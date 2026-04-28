@@ -144,3 +144,14 @@ VLAN configuration and network segmentation
 License
 
 MIT License
+
+
+## Documentation
+
+Detailed technical documentation:
+
+- docs/hyperv-removal.md
+- docs/virtualbox-configuration.md
+- docs/vm-setup.md
+- docs/networking.md
+
