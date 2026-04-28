@@ -32,6 +32,7 @@ Key Challenge
 During the installation process, the Proxmox installer consistently failed with a black screen immediately after boot.
 
 Symptoms
+
 Boot menu appeared normally
 Selecting installer resulted in a black screen
 No output in both GUI and CLI modes
@@ -44,6 +45,7 @@ Hyper-V still active in the system
 Virtualization Based Security (VBS)
 Memory Integrity (Core Isolation)
 VirtualBox running without direct access to hardware virtualization
+
 Solution
 
 A full system-level remediation was required:
@@ -58,6 +60,7 @@ Windows Subsystem for Linux
 Disabled Memory Integrity in Windows Security
 Performed full system reboot
 Verified hypervisor was no longer active
+
 Verification
 systeminfo | findstr /i hypervisor
 
