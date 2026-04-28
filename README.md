@@ -26,6 +26,7 @@ Architecture
         ├── Kali Linux
         ├── Ubuntu Server
         └── Windows 10 Pro
+
 Key Challenge
 
 During the installation process, the Proxmox installer consistently failed with a black screen immediately after boot.
@@ -34,6 +35,7 @@ Symptoms
 Boot menu appeared normally
 Selecting installer resulted in a black screen
 No output in both GUI and CLI modes
+
 Root Cause
 
 The issue was caused by Windows 11 virtualization conflicts:
